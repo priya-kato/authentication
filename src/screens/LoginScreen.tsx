@@ -26,7 +26,7 @@ export default function LoginScreen({navigation}: {navigation: any}) {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Welcome to Login screen</Text>
-      <Text style={styles.text}>CI/CD</Text>
+      {/* <Text style={styles.text}>CI/CD</Text> */}
 
       <FormInput
         value={email}
